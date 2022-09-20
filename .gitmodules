@@ -1,0 +1,3 @@
+[submodule "IYLTDSU.Core"]
+	path = IYLTDSU.Core
+	url = https://github.com/flyingdarts/IYLTDSU.Core
