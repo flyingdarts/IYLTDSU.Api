@@ -1,0 +1,10 @@
+.vs
+.vscode
+**/appsettings.*.json
+**/bin/*
+**/obj/*
+**/cdk.out
+**/cdktf.out
+**/appsettings.json
+**/.DS_Store
+Properties
