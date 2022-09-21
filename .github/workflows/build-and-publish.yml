@@ -45,7 +45,7 @@ jobs:
         role-session-name: GithubPipelineSession
 
     - name: Deploy Api
-      working-directory: ./src/IYLTDSU.Api
+      working-directory: ./src
       run: dotnet lambda deploy-function --function-name "api-flyingdarts-function" --function-role "IYLTDSUApiRole" --disable-interactive true --function-timeout 30 --function-memory-size 512 --function-runtime "dotnet6" --function-handler "IYLTDSU.Api"
 
     - name: Notify discord
