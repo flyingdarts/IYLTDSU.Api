@@ -1,4 +1,4 @@
-﻿namespace IYLTDSU.Backend.LambdaApi.Models.Games.X01;
+﻿namespace IYLTDSU.Api.Models.Games.X01;
 
 public enum GameStatusEnumDto
 {

@@ -2,7 +2,7 @@
 
 namespace IYLTDSU.Api.Controllers;
 
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class ApiController : Controller
 {
     public IActionResult Index()

@@ -2,7 +2,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace IYLTDSU.Backend.LambdaApi.Controllers;
+namespace IYLTDSU.Api.Controllers;
 
 [ApiController]
 public class BaseController : ControllerBase
@@ -17,7 +17,7 @@ public class BaseController : ControllerBase
         var businessResponse = await Mediator.Send(businessRequest, cancellationToken);
 
         var applicationResponse = Mapper.Map(businessResponse, new TApplicationResponse());
-
-        return applicationResponse;
+        
+        return applicationResponse; 
     }
 }
