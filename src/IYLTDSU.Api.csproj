@@ -20,7 +20,7 @@
       <PackageReference Include="MediatR" Version="11.0.0" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
       <PackageReference Include="NSwag.AspNetCore" Version="13.17.0" />
-      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.4.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
   </ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\..\IYLTDSU.Core\IYLTDSU.Business.X01\IYLTDSU.Business.X01.csproj" />
